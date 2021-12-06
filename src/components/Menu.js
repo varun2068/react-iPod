@@ -105,7 +105,7 @@ const Menu = (props) => {
 			style={styles.menu}
 		>
 			<div className="ipod-title" style={styles.title}>
-				<p style={{ borderRadiusTopLeft: "10%", fontWeight:"600", fontSize:"30px",fontStyle:"italic"}}>iPod</p>
+				<p style={{ borderRadius: "10%", fontWeight:"600", fontSize:"30px",fontStyle:"italic"}}>iPod</p>
 			</div>
 			{RenderMenu}
 		</div>
@@ -130,9 +130,8 @@ const styles = {
 	},
 	menu: {
 		backgroundColor: "#2E76CF",
-		borderRadiusTopLeft: "10%",
-		borderRadiusBottomLeft: "10%",
-		marginTop: "6%"
+		borderRadius: "6%",
+		// marginTop: "1%"
 	},
 };
 

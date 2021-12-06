@@ -24,9 +24,13 @@ const Controller = (props) => {
 	// Changing the Controller Container Theme
 	const styling = () => {
 		if (theme.themeIndex === 0) {
-			return { background: "linear-gradient(to right, #f85032, #e73827)"};
+			return { backgroundColor: "#2a2a72",
+					backgroundImage: "linear-gradient(320deg, #2a2a72 0%, #009ffd 74%)",
+				borderBottomLeftRadius: "6%"}
 		} else {
-			return { backgroundColor: "black" };
+			return { backgroundColor: "#000000",
+				backgroundImage: "linear-gradient(0deg, #000000 0%, #434343 74%)"
+				};
 		}
 	};
 	//------------------------------------------------------------------------------------------
@@ -174,6 +178,7 @@ const styles = {
 		padding: "5px",
 	},
 	resume: {
+		color: "white",
 		height: "50px",
 		width: "60px",
 		cursor: "pointer",

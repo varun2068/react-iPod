@@ -29,29 +29,37 @@ const Ipod = (props) => {
 	const themeBottomContainer = () => {
 		if (theme.themeIndex === 0) {
 			return {
-				background: "linear-gradient(90deg, blue, red)",
-				transition: "all 2s linear",
+				backgroundColor: "#2a2a72",
+				backgroundImage: "linear-gradient(315deg, #2a2a72 0%, #009ffd 74%)"
 			};
 		} else {
-			return { backgroundColor: "black", transition: "all 2s linear" };
+			return { 
+				backgroundColor: "#000000",
+				backgroundImage: "linear-gradient(180deg, #000000 0%, #434343 74%);"
+			};
 		}
 	};
 	//------------------------------------------------------------------------------------------
 	// Changing the Ipod Top Container Theme Color
 	const themeTopContainer = () => {
 		if (theme.themeIndex === 0) {
-			return { background: "linear-gradient(90deg, #e3e4e5,#cacaca)" };
+			return { 
+				backgroundColor: "black"
+			 };
 		} else {
-			return { backgroundColor: "black" };
+			return {backgroundColor: "#000000",
+			backgroundImage: "linear-gradient(180deg, #000000 0%, #434343 74%)"};
 		}
 	};
 	//------------------------------------------------------------------------------------------
 	// Changing the Ipod Display Container Theme Color
 	const themeDisplayContainer = () => {
 		if (theme.themeIndex === 0) {
-			return { background: "linear-gradient(90deg, #e3e4e5,#cacaca)" };
+			return { 
+				backgroundColor: "black"
+			 };
 		} else {
-			return { backgroundColor: "black" };
+			return { backgroundColor: "transparent" };
 		}
 	};
 	//------------------------------------------------------------------------------------------
@@ -60,12 +68,13 @@ const Ipod = (props) => {
 		if (theme.themeIndex === 0) {
 			return {
 				boxShadow: "1px 4px 15px 10px rgba(151, 151, 151, 0.72)",
-				background: "linear-gradient(to right, #f85032, #e73827)",
+				backgroundImage: "linear-gradient(315deg, #2a2a72 0%, #009ffd 78%)",
 			};
 		} else {
 			return {
 				boxShadow: "0px 1px 15px 13px rgba(151, 151, 151, 0.72)",
-				backgroundColor: "black",
+				backgroundColor: "#000000",
+				backgroundImage: "linear-gradient(0deg, #000000 0%, #434343 74%)"
 			};
 		}
 	};

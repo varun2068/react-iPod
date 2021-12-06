@@ -41,8 +41,8 @@ body::-webkit-scrollbar {
 .ipod {
 	height: 580px;
 	width: 370px;
-	background: linear-gradient(to right, #f85032, #e73827);
-	border-radius: 10%;
+	background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 	margin: auto;
 	margin-top: 40px;
 	display: flex;
@@ -54,7 +54,6 @@ body::-webkit-scrollbar {
 /* --------------------------------Ipod Top Container Styling-------------------------------- */
 /* Top Container */
 .ipod .top-container {
-	background: linear-gradient(to right, #f85032, #e73827);
 	border-radius: 10%;
 	height: 50%;
 	width: 80%;
@@ -69,7 +68,6 @@ body::-webkit-scrollbar {
 /* Display Container */
 .ipod .display-container {
 	border-radius: 10%;
-	background: linear-gradient(to right, #f85032, #e73827);
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -83,7 +81,6 @@ body::-webkit-scrollbar {
 	z-index: 2;
 	border-top-left-radius: 10%;
 	border-top-right-radius: 10%;
-	background: linear-gradient(to right, #f85032, #e73827);
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -153,9 +150,9 @@ body::-webkit-scrollbar {
 }
 /* Controller */
 .ipod .controller-container .controller {
-	background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00f260, #0575e6);   
+	border: 2px solid black;
+	background-color: #00bfb2;
+	background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
 	border-radius: 50%;
 	display: flex;
 	flex-direction: column;
@@ -166,9 +163,9 @@ body::-webkit-scrollbar {
 }
 /* Enter Button */
 .ipod .controller-container .controller .inner-circle {
-	background: #1a2980; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1a2980, #26d0ce); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1a2980, #26d0ce);
+	border: 2px solid black;
+	background-color: #00bfb2;
+	background-image: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
 	border-radius: 50%;
 	display: flex;
 	flex-direction: column;

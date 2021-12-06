@@ -53,7 +53,7 @@ const styles = {
 		textAlign: "center",
 		marginTop: "20px",
 		width: "90%",
-		color: "white",
+		color: "black",
 		fontWeight: "bolder",
 		fontSize: "30px",
 		letterSpacing: "0.15rem",
